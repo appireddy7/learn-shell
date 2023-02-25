@@ -12,7 +12,6 @@ xyz() {
 
 # Main Program ##
 ##### Call function ####
-
-xyz 123 456
 a=120
+xyz 123 456
 echo value of b= $b
