@@ -4,3 +4,5 @@ echo "Hello. Good Morning, Todays date is ${DATE}"
 ## Command Substitution ####
 
 DATE=$(date)
+
+echo "Hello. Good Morning, Todays date is ${DATE}"
