@@ -14,5 +14,5 @@ ADD=$((2+3))
 
 echo "Addition of 2+3 = ${ADD}"
 
-Sub=$((7-2))
+SUB=$((7-2))
 echo "Substitution of 7-2 = ${SUB}"
