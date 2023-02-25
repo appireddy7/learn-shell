@@ -6,7 +6,7 @@ xyz() {
   echo Second Argument - $2
   echo All Arguments - $*
   echo No of Arguments - $#
-  echo value of a=$a
+  echo value of a= $a
   b=200
 }
 
@@ -15,4 +15,4 @@ xyz() {
 
 xyz 123 456
 a=120
-echo value of b=$b
+echo value of b= $b
