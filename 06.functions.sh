@@ -29,4 +29,3 @@ abc() {
 abc
 echo exit status of abc function = $?
 
-}
