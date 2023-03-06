@@ -16,3 +16,17 @@ xyz() {
 a=120
 xyz 123 456
 echo value of b= $b
+
+
+### Return ####
+
+abc() {
+  echo Hello, My name is Ar
+  return 109
+  echo bye
+}
+
+abc
+echo exit status of abc function = $?
+
+}
