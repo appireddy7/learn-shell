@@ -5,6 +5,6 @@ echo Hello World
 
 echo -e "line1\nline2\nline3"
 
-echo -e "Print line1\n print line2\n print line3"
+echo -e "Print line1\nprint line2\nprint line3"
 
 #### \e for color, \n for new line ####
