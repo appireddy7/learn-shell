@@ -27,11 +27,11 @@ esac
 
 ### same example using if condition #####
 
-if [ "{name}" == "DEVOPS" ]
+if [ "${name}" == "DEVOPS" ]
 then
   echo Welcome to Devops Training
   echo Timings are 6 am
-  elif [ "{name}" == "AWS" ]
+  elif [ "${name}" == "AWS" ]
    then
       echo Welcome to Aws Training
       echo Timings are 7 am
