@@ -18,7 +18,7 @@ Aws)
   echo welcome to Aws training
   echo timings are 7 am
   ;;
-*) No Course available
+*)  echo No Course available
   ;;
 esac
 
