@@ -5,3 +5,11 @@ while [ $i -gt 0 ]; do
   i=$(($i-1))
   sleep 1
   done
+
+
+##### loops based on inputs #####
+
+for i in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15; do
+  echo $i
+  sleep 1
+  done
