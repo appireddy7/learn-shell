@@ -6,6 +6,7 @@
 # esac
 
 # name is the variable here
+# string is case sensitive
 
 read -p 'Enter course Name: ' name
 
@@ -22,3 +23,18 @@ AWS)
   ;;
 esac
 
+
+
+### same example using if condition #####
+
+if [ "{name}" == "DEVOPS"]
+then
+  echo Welcome to Devops Training
+  echo Timings are 6 am
+  elif [ "{name}" == "AWS" ]
+   then
+      echo Welcome to Aws Training
+      echo Timings are 7 am
+      else
+        echo No Course available
+        fi
