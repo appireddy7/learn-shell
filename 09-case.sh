@@ -11,11 +11,11 @@ read -p 'Enter course Name: ' name
 
 case $name in
 Devops)
-  echo welcome to Devops training
+  echo welcome to DEVOPS training
   echo timings are 6 am
   ;;
 Aws)
-  echo welcome to Aws training
+  echo welcome to AWS training
   echo timings are 7 am
   ;;
 *)  echo No Course available
